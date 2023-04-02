@@ -18,8 +18,9 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "sirius", // Usually your GitHub org/user name.
-  projectName: "sirius-docs", // Usually your repo name.
+  organizationName: "SiriusDevelopmentGroup", // Usually your GitHub org/user name.
+  projectName: "Sirius-Docs", // Usually your repo name.
+  trailingSlash: false,
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
