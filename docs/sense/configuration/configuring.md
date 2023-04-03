@@ -3,7 +3,7 @@ title: Configuring
 sidebar_position: 1
 ---
 
-## This is the default configuration for Sense, most things will be disabled by default.
+This is the default configuration for Sense, most things will be disabled by default.
 
 ```lua
 Sense = {

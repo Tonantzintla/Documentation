@@ -3,7 +3,7 @@ title: Game Functions
 sidebar_position: 1
 ---
 
-## These are our game specific functions, you're required to modify these for games that use custom replication systems such as Phantom Forces.
+These are our game specific functions, you're required to modify these for games that use custom replication systems such as Phantom Forces.
 
 ```lua
 function EspInterface.getWeapon(player)

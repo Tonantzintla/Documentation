@@ -1,30 +1,30 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
-
-/* You can override the default Infima variables here. */
+/* Set default colors to black and white */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-color-primary: #404040 !important;
+  --ifm-color-primary-dark: #3a3a3a !important;
+  --ifm-color-primary-darker: #363636 !important;
+  --ifm-color-primary-darkest: #2d2d2d !important;
+  --ifm-color-primary-light: #464646 !important;
+  --ifm-color-primary-lighter: #4a4a4a !important;
+  --ifm-color-primary-lightest: #535353 !important;
+  --ifm-code-font-size: 95% !important;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.2) !important;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(250, 250, 250, 0.3);
+  --ifm-color-primary: #e5e5e5 !important;
+  --ifm-color-primary-dark: #cecece !important;
+  --ifm-color-primary-darker: #c3c3c3 !important;
+  --ifm-color-primary-darkest: #a0a0a0 !important;
+  --ifm-color-primary-light: #fcfcfc !important;
+  --ifm-color-primary-lighter: #ffffff !important;
+  --ifm-color-primary-lightest: #ffffff !important;
+  --ifm-background-color: #000000 !important;
+  --ifm-code-font-size: 95% !important;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.2) !important;
+}
+
+.main-wrapper {
+  justify-content: center;
 }

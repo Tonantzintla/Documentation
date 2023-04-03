@@ -3,7 +3,7 @@ title: ESP
 sidebar_position: 1
 ---
 
-## You can create an ESP object for instances by doing to following:
+You can create an ESP object for instances by doing to following:
 
 ```lua
 local object = Sense.AddInstance(workspace.Part, {

@@ -3,7 +3,7 @@ title: Booting the Library
 sidebar_position: 2
 ---
 
-## Loading the Sense ESP Library
+Loading the Sense ESP Library
 
 ```lua
 -- 1. Load the library

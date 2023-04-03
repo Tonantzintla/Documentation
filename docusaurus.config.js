@@ -1,8 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/nightOwlLight");
-const darkCodeTheme = require("prism-react-renderer/themes/nightOwl");
+const lightCodeTheme = require("prism-react-renderer/themes/vsLight");
+const darkCodeTheme = require("prism-react-renderer/themes/vsDark");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -37,12 +37,14 @@ const config = {
     [
       "@docusaurus/preset-classic",
       {
+        theme: {
+          customCss: require.resolve("./src/css/custom.css"),
+        },
         docs: {
           id: "default",
           path: "docs/rayfield",
           routeBasePath: "/rayfield",
           sidebarPath: require.resolve("./sidebars.js"),
-          // ... other options
         },
       },
     ],
@@ -71,18 +73,28 @@ const config = {
       // You can configure additional HTML metadata (and override existing ones).
       metadata: [
         { name: "theme-color", content: "#2B2D31" },
-        { name: "description", content: "Documentation for all Sirius related projects" },
+        {
+          name: "description",
+          content: "Documentation for all Sirius related projects",
+        },
         { property: "og:title", content: "Sirius Docs" },
         { property: "og:type", content: "article" },
         { property: "og:url", content: "https://docs.sirius.menu" },
         { property: "og:locale", content: "en" },
         { property: "og:image:alt", content: "Sirius Docs" },
-        { name: "description", property: "og:description", content: "Documentation for all Sirius related projects" },
+        {
+          name: "description",
+          property: "og:description",
+          content: "Documentation for all Sirius related projects",
+        },
         { property: "og:site_name", content: "Sirius Docs" },
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:site", content: "@SiriusMenu" },
         { name: "twitter:title", content: "Sirius Docs" },
-        { name: "twitter:description", content: "Documentation for all Sirius related projects" },
+        {
+          name: "twitter:description",
+          content: "Documentation for all Sirius related projects",
+        },
         { name: "twitter:image:alt", content: "Sirius Docs" },
       ],
       // Replace with your project's social card
@@ -93,6 +105,7 @@ const config = {
           alt: "Sirius",
           src: "img/logo.svg",
         },
+        style: "dark",
         items: [
           {
             to: "/rayfield",
@@ -109,10 +122,6 @@ const config = {
             position: "right",
           },
         ],
-      },
-      footer: {
-        style: "dark",
-        copyright: `Copyright © ${new Date().getFullYear()} Sirius`,
       },
       prism: {
         additionalLanguages: ["lua"],
