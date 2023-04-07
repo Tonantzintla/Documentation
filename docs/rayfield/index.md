@@ -7,7 +7,7 @@ sidebar_position: 1
 
 This is the written documentation for Rayfield Interface Suite.
 
-Last updated for the Beta 7R release
+Last updated for the Beta 8E release
 
 ## Why choose Rayfield?
 
