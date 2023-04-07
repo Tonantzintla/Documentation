@@ -30,9 +30,8 @@ jobs:
 
         # Upload the build directory as an artifact
       - name: Upload build artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-pages-artifact@v1
         with:
-          name: build
           path: build
 
   # Deploy job
@@ -57,4 +56,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v1
         with:
-          artifact_name: build
+          artifact_name: github-pages
