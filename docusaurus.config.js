@@ -60,6 +60,16 @@ const config = {
         // ... other options
       },
     ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "staff",
+        path: "docs/staff",
+        routeBasePath: "/staff",
+        sidebarPath: require.resolve("./sidebars.js"),
+        // ... other options
+      },
+    ],
   ],
 
   themeConfig:

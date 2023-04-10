@@ -1,0 +1,23 @@
+---
+title: Activity / Inactivity
+sidebar_position: 1
+---
+
+While we don’t have a set quota on how many tickets you need to handle as support a week/month, etc, we do watch your activity and how many tickets you handle.  
+We do this to make sure you are doing your job. Now this doesn’t mean if you don’t do many tickets in a week we are going to fire you at the end of that week, as we know people have lives and things can happen that affect your activity. Though if we notice that you are not doing anything as support then we will look into removing you, but not before giving you a chance to bring your activity up.
+
+While we love our staff to be active all the time, we know that things can come up and affect your activity for long periods of time, that is why we give you the option to request inactivity. Pretty much, if you know that you will be gone for an extended period of time, then you can request inactivity and an Admin or above can approve it. But there are rules to this system.
+
+## Inactivity Request Rules
+
+- Your request **must** be at least three days long.
+- Your request **must** not be longer than a month long
+- You have to wait two weeks between each inactivity request. (Unless told otherwise)
+- You must follow the request format:
+
+```markdown
+> **Username**: Clyde#1234
+> **Reason**: Going on holidays
+> **Length of inactivity**: 3 Days
+> **Start Date**: 01/01/2023
+```

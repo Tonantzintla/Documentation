@@ -1,0 +1,46 @@
+---
+title: Manual Whitelisting
+sidebar_position: 1
+---
+
+import useBaseUrl from "@docusaurus/useBaseUrl";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+Most of our support tickets are people asking about being whitelisted after purchasing one of our products. Below you can read about how you can handle situations like this. You must log every purchase by using the `;logpro [receipt number]` command.
+
+:::info Info
+
+Automatically handling Stripe and Coinbase purchases has been introduced, this should only be used in extremely odd scenarios
+
+:::
+
+## Handling a purchase
+
+Whitelisting is handled differently depending on how a user purchased the product. Information on automatic payment methods is listed in <ins>[#upgrade](https://discord.com/channels/939553319750344744/939900864938795068)</ins> and you should be knowledgeable about them. You should not handle any transaction that is meant to be automatic manually unless there was a payment error, in which case you should ping Shlex inside the ticket. Stripe purchases made with a discount must be handled manually, no automatic key will be issued.
+
+Depending on how the user purchased the product, you may have to manually whitelist them. For example, if they purchase a product with ROBUX you will have to manually whitelist them. Doing so is quite easy and intuitive.
+
+Here's how:
+
+<Tabs>
+  <TabItem value="step1" label="Step 1" default>
+    After getting the appropriate proof from the user to verify the purchase, run the `/whitelist` slash command on them. The beta argument is pointless at this date.
+    <img src={useBaseUrl("/img/staff/whitelistcommand.png")} alt="Whitelist Command" />
+  </TabItem>
+  <TabItem value="step2" label="Step 2">
+    After pressing enter, an embed sent from the Sirius bot should appear, this is where you can select which version of the product they can be whitelisted for. <br /> If someone bought Sirius Professional, select that option, if they bought Essential, select the Essential option.
+
+<img src={useBaseUrl("/img/staff/whitelistembed.gif")} alt="Whitelist Embed" />
+
+:::caution Warning
+
+Sirius beta should never be chosen. It was a different Sirius tier but has been removed
+
+:::
+
+  </TabItem>
+  <TabItem value="step3" label="Last Step">
+  Remember to thank the user for their purchase and to close the ticket.
+  </TabItem>
+</Tabs>
