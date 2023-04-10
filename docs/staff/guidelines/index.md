@@ -23,7 +23,7 @@ _Not every rule is stated here, use common sense._
 - If the ticket isn’t claimed by you, do not interfere. If you think they’re doing something wrong, tell them on staff chat. Only talk about other peoples tickets in extreme situations.
 - Don’t ever leak confidential information. If you use a message logger, never share deleted messages.
 - Respect the rank hierarchy. Don’t be a “dick” about it though.
-- You must be nice, friendly and respectful in tickets. At no given point you are allowed to insult any member or be disrespectful. **Breaking this rule will result in an immediate demotion, with no warnings.**
+- You must be nice, friendly and respectful in tickets. At no given point you are allowed to insult any member or be disrespectful.
 
 :::danger Important
 
