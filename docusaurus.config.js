@@ -109,6 +109,13 @@ const config = {
       ],
       // Replace with your project's social card
       image: "img/Docs.png",
+      announcementBar: {
+        id: "beta",
+        content: "This new documentation website is still in beta. Expect unmatching styling and other bugs. If you find any or have any suggestions, please report them to <a href='https://discord.com/users/389759544776982528'>Gigi</a> in the <a href='https://discord.gg/sirius'>Sirius Discord</a>.",
+        backgroundColor: "#fff",
+        textColor: "#000",
+        isCloseable: false,
+      },
       navbar: {
         title: "Sirius Docs",
         logo: {
@@ -138,6 +145,14 @@ const config = {
         defaultLanguage: "lua",
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      algolia: {
+        indexName: "rayfield",
+        appId: "Y1DPKMTCPW",
+        apiKey: "23dce9cc88cb86b13abd821958b35469",
+      },
+      footer: {
+        copyright: `Copyright © ${new Date().getFullYear()} Sirius Docs.`,
       },
     }),
 };
