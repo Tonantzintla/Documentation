@@ -91,7 +91,6 @@ const config = {
         { property: "og:type", content: "article" },
         { property: "og:url", content: "https://docs.sirius.menu" },
         { property: "og:locale", content: "en" },
-        { property: "og:image", content: "img/Docs.png" },
         { property: "og:image:alt", content: "Sirius Docs" },
         {
           name: "description",
@@ -106,7 +105,6 @@ const config = {
           name: "twitter:description",
           content: "Documentation for all Sirius related projects",
         },
-        { name: "twitter:image", content: "img/Docs.png" },
         { name: "twitter:image:alt", content: "Sirius Docs" },
       ],
       // Replace with your project's social card
