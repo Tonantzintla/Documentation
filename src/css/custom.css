@@ -1,3 +1,8 @@
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* Set default colors to black and white */
 :root {
   --ifm-color-primary: #404040 !important;
@@ -65,4 +70,15 @@
 }
 .DocSearch-Button {
   border-radius: 0.25rem !important;
+}
+
+.navbar {
+  background-color: #1d1d1eb3;
+  transition: background-color 0.5s cubic-bezier(0.28, 0.11, 0.32, 1);
+  transition-property: background-color, backdrop-filter, -webkit-backdrop-filter;
+  --tw-saturate: saturate(180%);
+  --tw-backdrop-blur: blur(20px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  height: 3.5rem;
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
