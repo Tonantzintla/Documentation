@@ -128,11 +128,7 @@ const config = {
         isCloseable: false,
       },
       navbar: {
-        title: "Docs",
-        logo: {
-          alt: "Sirius",
-          src: "img/logo.svg",
-        },
+        title: "Documentation",
         style: "dark",
         items: [
           {
