@@ -21,7 +21,7 @@ jobs:
         with:
           node-version: 18
           # Install pnpm
-          cache: pnpm
+          cache: "pnpm"
           cache-dependency-path: pnpm-lock.yaml
 
       - name: Install dependencies
