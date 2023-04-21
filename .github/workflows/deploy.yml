@@ -20,14 +20,15 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: npm
-          cache-dependency-path: package-lock.json
+          # Install pnpm
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
 
       - name: Install dependencies
-        run: npm ci
+        run: pnpm install
 
       - name: Build
-        run: npm run build
+        run: pnpm build
 
         # Upload the build directory as an artifact
       - name: Upload build artifact
