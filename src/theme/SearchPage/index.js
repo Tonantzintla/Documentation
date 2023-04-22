@@ -78,7 +78,7 @@ function SearchPageContent() {
     i18n: { currentLocale },
   } = useDocusaurusContext();
   const {
-    algolia: { appId, apiKey, indexName, contextualSearch },
+    algolia: { appId, apiKey, indexName },
   } = useAlgoliaThemeConfig();
   const processSearchResultUrl = useSearchResultUrlProcessor();
   const documentsFoundPlural = useDocumentsFoundPlural();
