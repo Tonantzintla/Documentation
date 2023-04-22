@@ -30,7 +30,7 @@ export default function Home() {
         <div className="mx-auto py-6 sm:py-8 lg:py-12">
           <div className=" w-screen px-4 md:px-8">
             <div className="mb-10 md:mb-16">
-              <h1 className="mb-1 text-center text-2xl font-bold dark:text-white lg:text-3xl">Sirius Documentation</h1>
+              <h1 className="mb-1 text-center font-sfdisplay text-2xl font-bold dark:text-white lg:text-3xl">Sirius Documentation</h1>
               <p className="mx-auto max-w-screen-md text-center font-sfdisplay dark:text-neutral-200 md:text-lg">Documentation for all Sirius related projects</p>
             </div>
 
