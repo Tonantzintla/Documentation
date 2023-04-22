@@ -7,7 +7,7 @@ Loading the Sense ESP Library
 
 ```lua
 -- 1. Load the library
-local Sense = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Sirius/request/library/sense/source.lua'))()
+local Sense = loadstring(game:HttpGet('https://sirius.menu/sense'))()
 
 -- 2. Change the configuration.
 Sense.teamSettings.enemy.enabled = true

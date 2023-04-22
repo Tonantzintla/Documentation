@@ -6,7 +6,7 @@ sidebar_position: 2
 ## Loading the Rayfield Library
 
 ```lua
-local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 ```
 
 ### Secure Mode
