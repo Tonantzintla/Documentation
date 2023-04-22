@@ -139,6 +139,7 @@ const config = {
         indexName: "rayfield",
         appId: "Y1DPKMTCPW",
         apiKey: "7b017cc6ab9d1a413284733c14c2c42b",
+        contextualSearch: false,
       },
       footer: {
         copyright: `Copyright © ${new Date().getFullYear()} Sirius Docs.`,
