@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/vsDark");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Sirius Docs",
+  title: "Sirius Documentation",
   tagline: "Documentation for all Sirius related projects",
   favicon: "img/favicon.ico",
 
@@ -94,29 +94,11 @@ const config = {
       // You can configure additional HTML metadata (and override existing ones).
       metadata: [
         { name: "theme-color", content: "#2B2D31" },
-        {
-          name: "description",
-          content: "Documentation for all Sirius related projects",
-        },
-        { property: "og:title", content: "Sirius Docs" },
         { property: "og:type", content: "article" },
         { property: "og:url", content: "https://docs.sirius.menu" },
         { property: "og:locale", content: "en" },
-        { property: "og:image:alt", content: "Sirius Docs" },
-        {
-          name: "description",
-          property: "og:description",
-          content: "Documentation for all Sirius related projects",
-        },
-        { property: "og:site_name", content: "Sirius Docs" },
+        { property: "og:site_name", content: "Sirius Documentation" },
         { name: "twitter:card", content: "summary_large_image" },
-        { name: "twitter:site", content: "@SiriusMenu" },
-        { name: "twitter:title", content: "Sirius Docs" },
-        {
-          name: "twitter:description",
-          content: "Documentation for all Sirius related projects",
-        },
-        { name: "twitter:image:alt", content: "Sirius Docs" },
       ],
       // Replace with your project's social card
       image: "img/Docs.png",
@@ -156,7 +138,7 @@ const config = {
       algolia: {
         indexName: "rayfield",
         appId: "Y1DPKMTCPW",
-        apiKey: "23dce9cc88cb86b13abd821958b35469",
+        apiKey: "7b017cc6ab9d1a413284733c14c2c42b",
       },
       footer: {
         copyright: `Copyright © ${new Date().getFullYear()} Sirius Docs.`,

@@ -1,8 +1,9 @@
 import React from "react";
 import Layout from "@theme/Layout";
+import Head from "@docusaurus/Head";
 
 function CardLayout({ children }) {
-  return <div className="flex h-full w-full flex-col items-center justify-center gap-4 md:flex-row md:gap-6 xl:gap-8">{children}</div>;
+  return <div className="flex h-full w-full flex-col items-center justify-center gap-4 pb-4 md:flex-row md:gap-6 md:pb-6 xl:gap-8 xl:pb-8">{children}</div>;
 }
 
 function Card({ imgurl, name, link }) {
@@ -19,12 +20,18 @@ function Card({ imgurl, name, link }) {
 export default function Home() {
   return (
     <Layout>
-      <main className="flex h-screen items-center">
+      <Head>
+        <meta name="description" content="Documentation for all Sirius related projects" />
+        <meta property="og:title" content="Sirius Documentation" />
+        <meta property="og:image:alt" content="Sirius Documentation" />
+        <meta name="description" property="og:description" content="Documentation for all Sirius related projects" />
+      </Head>
+      <main className="flex items-center">
         <div className="mx-auto py-6 sm:py-8 lg:py-12">
           <div className=" w-screen px-4 md:px-8">
             <div className="mb-10 md:mb-16">
-              <h1 className="mb-1 text-center text-2xl font-bold text-white lg:text-3xl">Sirius Documentation</h1>
-              <p className="mx-auto max-w-screen-md text-center text-neutral-200 md:text-lg">Documentation for all Sirius related projects</p>
+              <h1 className="mb-1 text-center text-2xl font-bold dark:text-white lg:text-3xl">Sirius Documentation</h1>
+              <p className="mx-auto max-w-screen-md text-center font-sfdisplay dark:text-neutral-200 md:text-lg">Documentation for all Sirius related projects</p>
             </div>
 
             <CardLayout>

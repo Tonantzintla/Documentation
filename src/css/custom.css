@@ -5,26 +5,27 @@
 
 /* Set default colors to black and white */
 :root {
-  --ifm-color-primary: #404040 !important;
-  --ifm-color-primary-dark: #3a3a3a !important;
-  --ifm-color-primary-darker: #363636 !important;
-  --ifm-color-primary-darkest: #2d2d2d !important;
-  --ifm-color-primary-light: #464646 !important;
-  --ifm-color-primary-lighter: #4a4a4a !important;
-  --ifm-color-primary-lightest: #535353 !important;
+  --ifm-color-primary: #505050 !important;
+  --ifm-color-primary-dark: #484848 !important;
+  --ifm-color-primary-darker: #444444 !important;
+  --ifm-color-primary-darkest: #383838 !important;
+  --ifm-color-primary-light: #585858 !important;
+  --ifm-color-primary-lighter: #5c5c5c !important;
+  --ifm-color-primary-lightest: #686868 !important;
+  --ifm-background-color: #ffffff !important;
   --ifm-code-font-size: 95% !important;
   --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.2) !important;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
-  --ifm-color-primary: #e5e5e5 !important;
-  --ifm-color-primary-dark: #cecece !important;
-  --ifm-color-primary-darker: #c3c3c3 !important;
-  --ifm-color-primary-darkest: #a0a0a0 !important;
-  --ifm-color-primary-light: #fcfcfc !important;
-  --ifm-color-primary-lighter: #ffffff !important;
-  --ifm-color-primary-lightest: #ffffff !important;
+  --ifm-color-primary: #aaabaa !important;
+  --ifm-color-primary-dark: #999a99 !important;
+  --ifm-color-primary-darker: #909290 !important;
+  --ifm-color-primary-darkest: #777877 !important;
+  --ifm-color-primary-light: #bbbcbb !important;
+  --ifm-color-primary-lighter: #c4c4c4 !important;
+  --ifm-color-primary-lightest: #dddedd !important;
   --ifm-background-color: #000000 !important;
   --ifm-code-font-size: 95% !important;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.2) !important;
@@ -33,6 +34,7 @@
 .main-wrapper {
   justify-content: center;
 }
+
 [data-theme="light"] .DocSearch {
   /* --docsearch-primary-color: var(--ifm-color-primary); */
   /* --docsearch-text-color: var(--ifm-font-color-base); */
@@ -73,7 +75,7 @@
 }
 
 .navbar {
-  background-color: #1d1d1eb3;
+  background-color: #000000;
   transition: background-color 0.5s cubic-bezier(0.28, 0.11, 0.32, 1);
   transition-property: background-color, backdrop-filter, -webkit-backdrop-filter;
   --tw-saturate: saturate(180%);
@@ -83,10 +85,27 @@
   backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
+[data-theme="dark"] .navbar {
+  background-color: #1d1d1eb3;
+}
+
 .footer {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   background-color: transparent;
+}
+
+.footer__copyright {
+  opacity: 0.2;
+}
+
+.navbar__inner {
+  flex-wrap: nowrap;
+}
+
+.navbar__title {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 @font-face {
