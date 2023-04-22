@@ -11,15 +11,16 @@
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  transition: background var(--ifm-transition-fast);
+  transition: scale var(--ifm-transition-fast);
 }
 
 .toggleButton:hover {
-  background: var(--ifm-color-emphasis-200);
+  scale: 1.1;
+  background: transparent !important;
 }
 
-[data-theme='light'] .darkToggleIcon,
-[data-theme='dark'] .lightToggleIcon {
+[data-theme="light"] .darkToggleIcon,
+[data-theme="dark"] .lightToggleIcon {
   display: none;
 }
 
