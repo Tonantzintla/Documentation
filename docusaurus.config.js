@@ -142,7 +142,7 @@ const config = {
         contextualSearch: false,
       },
       footer: {
-        copyright: `Copyright © ${new Date().getFullYear()} Sirius Docs.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Sirius`,
       },
     }),
 };
