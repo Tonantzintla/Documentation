@@ -4,12 +4,27 @@ dependencies:
   '@docusaurus/core':
     specifier: 2.4.0
     version: 2.4.0(@docusaurus/types@2.4.0)(@types/node@18.15.13)(react-dom@17.0.2)(react@17.0.2)(ts-node@10.9.1)(typescript@5.0.4)
+  '@docusaurus/plugin-content-docs':
+    specifier: ^2.4.0
+    version: 2.4.0(@types/node@18.15.13)(react-dom@17.0.2)(react@17.0.2)(ts-node@10.9.1)(typescript@5.0.4)
   '@docusaurus/preset-classic':
     specifier: 2.4.0
     version: 2.4.0(@algolia/client-search@4.17.0)(@types/node@18.15.13)(react-dom@17.0.2)(react@17.0.2)(ts-node@10.9.1)(typescript@5.0.4)
+  '@docusaurus/theme-common':
+    specifier: ^2.4.0
+    version: 2.4.0(@docusaurus/types@2.4.0)(@types/node@18.15.13)(react-dom@17.0.2)(react@17.0.2)(ts-node@10.9.1)(typescript@5.0.4)
+  '@docusaurus/theme-search-algolia':
+    specifier: ^2.4.0
+    version: 2.4.0(@algolia/client-search@4.17.0)(@docusaurus/types@2.4.0)(@types/node@18.15.13)(react-dom@17.0.2)(react@17.0.2)(ts-node@10.9.1)(typescript@5.0.4)
   '@mdx-js/react':
     specifier: ^1.6.22
     version: 1.6.22(react@17.0.2)
+  algoliasearch:
+    specifier: ^4.17.0
+    version: 4.17.0
+  algoliasearch-helper:
+    specifier: ^3.12.0
+    version: 3.12.0(algoliasearch@4.17.0)
   clsx:
     specifier: ^1.2.1
     version: 1.2.1
@@ -626,7 +641,7 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.12.9
-      '@babel/helper-plugin-utils': 7.10.4
+      '@babel/helper-plugin-utils': 7.20.2
       '@babel/plugin-syntax-object-rest-spread': 7.8.3(@babel/core@7.12.9)
       '@babel/plugin-transform-parameters': 7.21.3(@babel/core@7.12.9)
     dev: false
@@ -1680,7 +1695,7 @@ packages:
     dependencies:
       cssnano-preset-advanced: 5.3.10(postcss@8.4.23)
       postcss: 8.4.23
-      postcss-sort-media-queries: 4.3.0(postcss@8.4.23)
+      postcss-sort-media-queries: 4.4.1(postcss@8.4.23)
       tslib: 2.5.0
     dev: false
 
@@ -1736,7 +1751,7 @@ packages:
       '@docusaurus/react-loadable': 5.5.2(react@17.0.2)
       '@docusaurus/types': 2.4.0(react-dom@17.0.2)(react@17.0.2)
       '@types/history': 4.7.11
-      '@types/react': 18.0.37
+      '@types/react': 18.0.38
       '@types/react-router-config': 5.0.7
       '@types/react-router-dom': 5.3.3
       react: 17.0.2
@@ -2100,7 +2115,7 @@ packages:
     peerDependencies:
       react: '*'
     dependencies:
-      '@types/react': 18.0.37
+      '@types/react': 18.0.38
       prop-types: 15.8.1
       react: 17.0.2
 
@@ -2267,7 +2282,7 @@ packages:
       react-dom: ^16.8.4 || ^17.0.0
     dependencies:
       '@types/history': 4.7.11
-      '@types/react': 18.0.37
+      '@types/react': 18.0.38
       commander: 5.1.0
       joi: 17.9.1
       react: 17.0.2
@@ -2830,28 +2845,21 @@ packages:
     resolution: {integrity: sha512-pFFVXUIydHlcJP6wJm7sDii5mD/bCmmAY0wQzq+M+uX7bqS95AQqHZWP1iNMKrWVQSuHIzj5qi9BvrtLX2/T4w==}
     dependencies:
       '@types/history': 4.7.11
-      '@types/react': 18.0.37
+      '@types/react': 18.0.38
       '@types/react-router': 5.1.20
 
   /@types/react-router-dom@5.3.3:
     resolution: {integrity: sha512-kpqnYK4wcdm5UaWI3fLcELopqLrHgLqNsdpHauzlQktfkHL3npOSwtj1Uz9oKBAzs7lFtVkV8j83voAz2D8fhw==}
     dependencies:
       '@types/history': 4.7.11
-      '@types/react': 18.0.37
+      '@types/react': 18.0.38
       '@types/react-router': 5.1.20
 
   /@types/react-router@5.1.20:
     resolution: {integrity: sha512-jGjmu/ZqS7FjSH6owMcD5qpq19+1RS9DeVRqfl1FeBMxTDQAGwlMWOcs52NDoXaNKyG3d1cYQFMs9rCrb88o9Q==}
     dependencies:
       '@types/history': 4.7.11
-      '@types/react': 18.0.37
-
-  /@types/react@18.0.37:
-    resolution: {integrity: sha512-4yaZZtkRN3ZIQD3KSEwkfcik8s0SWV+82dlJot1AbGYHCzJkWP3ENBY6wYeDRmKZ6HkrgoGAmR2HqdwYGp6OEw==}
-    dependencies:
-      '@types/prop-types': 15.7.5
-      '@types/scheduler': 0.16.3
-      csstype: 3.1.2
+      '@types/react': 18.0.38
 
   /@types/react@18.0.38:
     resolution: {integrity: sha512-ExsidLLSzYj4cvaQjGnQCk4HFfVT9+EZ9XZsQ8Hsrcn8QNgXtpZ3m9vSIC2MWtx7jHictK6wYhQgGh6ic58oOw==}
@@ -2859,7 +2867,6 @@ packages:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.3
       csstype: 3.1.2
-    dev: false
 
   /@types/responselike@1.0.0:
     resolution: {integrity: sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA==}
@@ -3413,7 +3420,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001481
-      electron-to-chromium: 1.4.368
+      electron-to-chromium: 1.4.369
       node-releases: 2.0.10
       update-browserslist-db: 1.0.11(browserslist@4.21.5)
 
@@ -4295,8 +4302,8 @@ packages:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
     dev: false
 
-  /electron-to-chromium@1.4.368:
-    resolution: {integrity: sha512-e2aeCAixCj9M7nJxdB/wDjO6mbYX+lJJxSJCXDzlr5YPGYVofuJwGN9nKg2o6wWInjX6XmxRinn3AeJMK81ltw==}
+  /electron-to-chromium@1.4.369:
+    resolution: {integrity: sha512-LfxbHXdA/S+qyoTEA4EbhxGjrxx7WK2h6yb5K2v0UCOufUKX+VZaHbl3svlzZfv9sGseym/g3Ne4DpsgRULmqg==}
 
   /emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -6650,8 +6657,8 @@ packages:
       cssesc: 3.0.0
       util-deprecate: 1.0.2
 
-  /postcss-sort-media-queries@4.3.0(postcss@8.4.23):
-    resolution: {integrity: sha512-jAl8gJM2DvuIJiI9sL1CuiHtKM4s5aEIomkU8G3LFvbP+p8i7Sz8VV63uieTgoewGqKbi+hxBTiOKJlB35upCg==}
+  /postcss-sort-media-queries@4.4.1(postcss@8.4.23):
+    resolution: {integrity: sha512-QDESFzDDGKgpiIh4GYXsSy6sek2yAwQx1JASl5AxBtU1Lq2JfKBljIPNdil989NcSKRQX1ToiaKphImtBuhXWw==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       postcss: ^8.4.16
