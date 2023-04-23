@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "@theme/Layout";
 import Head from "@docusaurus/Head";
+import Image from "@theme/IdealImage";
 
 function CardLayout({ children }) {
   return <div className="flex h-full w-full flex-col items-center justify-center gap-4 pb-4 md:flex-row md:gap-6 md:pb-6 xl:gap-8 xl:pb-8">{children}</div>;
@@ -10,9 +11,9 @@ function Card({ imgurl, name, link }) {
   return (
     <a href={link} className="group relative aspect-video max-w-xl">
       <div className="overflow-hidden rounded-lg transition duration-500 ease-in-out group-hover:scale-105">
-        <img src={imgurl} loading="lazy" alt={name} className="pointer-events-none block object-cover object-center transition duration-500 ease-in-out group-hover:scale-110" />
+        <Image img={imgurl} alt={name} className="pointer-events-none block object-cover object-center transition duration-500 ease-in-out group-hover:scale-110" />
       </div>
-      <img src={imgurl} loading="lazy" alt={name} className="pointer-events-none absolute inset-0 -z-10 h-full w-full blur-xl saturate-[1.3]" />
+      <Image img={imgurl} alt={name} className="pointer-events-none absolute inset-0 -z-10 h-full w-full blur-xl saturate-[1.3]" />
     </a>
   );
 }

@@ -51,6 +51,13 @@ const config = {
   ],
   plugins: [
     [
+      "@docusaurus/plugin-ideal-image",
+      {
+        quality: 70,
+        sizes: [320, 640, 960, 1280, 1600, 1920],
+      },
+    ],
+    [
       "@docusaurus/plugin-content-docs",
       {
         id: "sense",

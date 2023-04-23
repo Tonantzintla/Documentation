@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Set default colors to black and white */
 :root {
   --ifm-color-primary: #505050 !important;
