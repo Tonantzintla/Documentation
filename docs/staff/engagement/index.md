@@ -13,11 +13,13 @@ While we love our staff to be active all the time, we know that things can come 
 - Your request **must** be at least three days long.
 - Your request **must** not be longer than a month long
 - You have to wait two weeks between each inactivity request. (Unless told otherwise)
-- You must follow the request format:
 
-```markdown
-> **Username**: Clyde#1234
-> **Reason**: Going on holidays
-> **Length of inactivity**: 3 Days
-> **Start Date**: 01/01/2023
-```
+## Inactivity Request Process
+
+To request inactivity, use the `/inactivity` slash command in the [#staff-inactivity](https://discord.com/channels/939553319750344744/1095221795109470288) channel and include the following parameters:
+
+- `start_date` - The start date of your inactivity request. This must be in the format `DD/MM/YYYY`.
+- `end_date` - The end date of your inactivity request. This must be in the format `DD/MM/YYYY`.
+- `reason` - The reason for your inactivity request. This must be a single string.
+
+![Inactivity Request](/img/staff/inactivity-request.gif)
