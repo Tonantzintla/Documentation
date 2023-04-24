@@ -1,5 +1,5 @@
 ---
-title: ESP
+title: Instance ESP
 sidebar_position: 1
 ---
 
