@@ -19,6 +19,7 @@ html {
   --ifm-background-color: #ffffff !important;
   --ifm-code-font-size: 95% !important;
   --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.2) !important;
+  --ifm-font-family-base: @apply font-sfdisplay;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
