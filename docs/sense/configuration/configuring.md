@@ -1,6 +1,8 @@
 ---
 title: Configuring
 sidebar_position: 1
+image: /img/sense/SenseBanner.png
+description: How to configure Sense
 ---
 
 This is the default configuration for Sense, most things will be disabled by default.

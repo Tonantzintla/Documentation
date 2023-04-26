@@ -1,6 +1,8 @@
 ---
 title: Introduction
 sidebar_position: 1
+image: /img/sense/SenseBanner.png
+description: Sense is a powerful and easy to use ESP library for Roblox.
 ---
 
 [![image](/img/sense/SenseBanner.png)](https://discord.sirius.menu)

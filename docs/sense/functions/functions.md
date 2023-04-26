@@ -1,6 +1,8 @@
 ---
 title: Game Functions
 sidebar_position: 1
+image: /img/sense/SenseBanner.png
+description: How to create game specific functions
 ---
 
 These are our game specific functions, you're required to modify these for games that use custom replication systems such as Phantom Forces.

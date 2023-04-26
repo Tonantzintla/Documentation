@@ -1,6 +1,8 @@
 ---
 title: Booting the Library
 sidebar_position: 2
+image: /img/rayfield/rayfield.png
+description: How to boot the Rayfield Library
 ---
 
 ## Loading the Rayfield Library

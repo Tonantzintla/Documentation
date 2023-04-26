@@ -1,6 +1,8 @@
 ---
 title: Textual elements
 sidebar_position: 1
+image: /img/rayfield/rayfield.png
+description: How to create textual elements
 ---
 
 # Textual elements in Rayfield

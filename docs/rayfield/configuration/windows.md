@@ -1,6 +1,8 @@
 ---
 title: Windows
 sidebar_position: 3
+image: /img/rayfield/rayfield.png
+description: How to create a window
 ---
 
 # Windows in Rayfield

@@ -1,6 +1,8 @@
 ---
 title: Elements
 sidebar_position: 1
+image: /img/rayfield/rayfield.png
+description: How to create interactive elements
 ---
 
 # Adding interactive elements

@@ -1,6 +1,8 @@
 ---
 title: Binds
 sidebar_position: 2
+image: /img/rayfield/rayfield.png
+description: How to create keybinds
 ---
 
 # Binding keys in Rayfield

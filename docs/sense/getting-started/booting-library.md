@@ -1,6 +1,8 @@
 ---
 title: Booting the Library
 sidebar_position: 2
+image: /img/sense/SenseBanner.png
+description: How to boot the Sense library
 ---
 
 Loading the Sense ESP Library

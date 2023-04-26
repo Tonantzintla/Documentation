@@ -1,6 +1,8 @@
 ---
 title: Instance ESP
 sidebar_position: 1
+image: /img/sense/SenseBanner.png
+description: How to create an ESP object for instances
 ---
 
 You can create an ESP object for instances by doing to following:
