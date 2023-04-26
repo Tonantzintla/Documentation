@@ -1,6 +1,6 @@
 ---
 title: Guidelines
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 All staff must follow the guidelines set, failing to do so will result in a warning or your possible removal from the staff team as a whole.
