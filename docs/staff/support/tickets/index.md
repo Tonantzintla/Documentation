@@ -60,6 +60,7 @@ If you don't know how to help the user and need to ask someone, but you are unsu
 <!-- Zumo 440599126401613865-> All but web, vps and lua -->
 <!-- Triangle 670545925898502157-> Sirius, Roblox, Other, Luaguard-->
 <!-- DylZ 305405455679750155 -> All but web and vps -->
+<!-- Fox 618782669723009027 -> sirius, roblox, other -->
 <!-- Nirvana 771036216128307240 -> Other -->
 
 |                                                              | Sirius             | Lua                | Luaguard           | Roblox             | Websites           | VPS                | Other              |
@@ -69,6 +70,7 @@ If you don't know how to help the user and need to ask someone, but you are unsu
 | [**Gigi**](https://discord.com/users/389759544776982528)     | :x:                | :x:                | :x:                | :x:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | [**Nirvana**](https://discord.com/users/771036216128307240)  | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :white_check_mark: |
 | [**Triangle**](https://discord.com/users/670545925898502157) | :white_check_mark: | :x:                | :white_check_mark: | :white_check_mark: | :x:                | :x:                | :white_check_mark: |
+| [**Fox**](https://discord.com/users/618782669723009027)      | :white_check_mark: | :x:                | :x:                | :white_check_mark: | :x:                | :x:                | :white_check_mark: |
 | [**DylZ**](https://discord.com/users/305405455679750155)     | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :x:                | :white_check_mark: |
 
 ### Definitions
