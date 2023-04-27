@@ -13,11 +13,11 @@ Fixes to errors you may be sent
 :::tip
 If someone gets “You may only execute this script once”, that means that they are using both Sirius and Sirius loader.  
 This is not supported as of right now and you can only run one at the same time.
+
+Update 27/04/2023: Sirius will now automatically detect if you need to use the loader or not if executing via https://sirius.menu/sirius. Thanks to [Razr](https://discord.com/users/541274447806726184)
 :::
 
 ## Errors
-
-<!-- 3 Headers/colums -->
 
 | 4XX Errors | Description                                                 | Reason                       |
 | ---------- | ----------------------------------------------------------- | ---------------------------- |
