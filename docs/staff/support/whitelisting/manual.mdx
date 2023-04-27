@@ -7,17 +7,11 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 
-Most of our support tickets are people asking about being whitelisted after purchasing one of our products. Below you can read about how you can handle situations like this. You must log every purchase by using the `;logpro [receipt number]` command.
-
-:::info Info
-
-Automatically handling Stripe and Coinbase purchases has been introduced, this should only be used in extremely odd scenarios
-
-:::
+Most of our support tickets are people asking about being whitelisted after purchasing one of our products. Below you can read about how you can handle situations like this.
 
 ## Handling a purchase
 
-Whitelisting is handled differently depending on how a user purchased the product. Information on automatic payment methods is listed in <ins>[#upgrade](https://discord.com/channels/939553319750344744/939900864938795068)</ins> and you should be knowledgeable about them. You should not handle any transaction that is meant to be automatic manually unless there was a payment error, in which case you should ping Shlex inside the ticket. Stripe purchases made with a discount must be handled manually, no automatic key will be issued.
+Whitelisting is handled differently depending on how a user purchased the product. Information on automatic payment methods is listed in <ins>[#upgrade](https://discord.com/channels/939553319750344744/939900864938795068)</ins> and you should be knowledgeable about them. You should not handle any transaction that is meant to be automatic manually unless there was a payment error, in which case you should ping Gigi inside the ticket who will handle the situation accordingly.
 
 Depending on how the user purchased the product, you may have to manually whitelist them. For example, if they purchase a product with ROBUX you will have to manually whitelist them. Doing so is quite easy and intuitive.
 
@@ -25,7 +19,7 @@ Here's how:
 
 <Tabs>
   <TabItem value="step1" label="Step 1" default>
-    After getting the appropriate proof from the user to verify the purchase, run the `/whitelist` slash command on them. The beta argument is pointless at this date.
+    After getting the appropriate proof from the user to verify the purchase, run the <code>/whitelist</code> slash command on them. The beta argument is pointless at this date.
     <img src={useBaseUrl("/img/staff/whitelistcommand.png")} alt="Whitelist Command" style={{marginTop: "1rem"}} />
   </TabItem>
   <TabItem value="step2" label="Step 2">
@@ -43,3 +37,22 @@ Sirius beta should never be chosen. It was a different Sirius tier but has been 
   Remember to thank the user for their purchase and to close the ticket.
   </TabItem>
 </Tabs>
+
+### Logging a purchase
+
+In order to log a purchase that's not logged automatically you have to use the `;logpurchase` command.
+You can use this command anywhere, but it's recommended to use it in the ticket channel or in the [#manual-purchase-logs](https://discord.com/channels/939553319750344744/939910602564968538) channel.
+
+For example, to log a Roblox purchase you use the following format:
+`;logpurchase roblox <discord ID or mention> <roblox profile link> Robux`
+
+Example:
+`;logpurchase roblox 123456789012345678 https://www.roblox.com/users/1234567890/profile Robux`
+
+<img src={useBaseUrl("/img/staff/logpurchase-command.png")} alt="Logpurchase Command" style={{ marginTop: "1rem", marginBottom: "1rem" }} />
+
+:::info Info
+
+Automatically handling Stripe and Coinbase purchases has been introduced, this should only be used in extremely odd scenarios
+
+:::
