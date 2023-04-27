@@ -23,3 +23,9 @@ To request inactivity, use the `/inactivity` slash command in the [#staff-inacti
 - `reason` - The reason for your inactivity request. This must be a single string.
 
 ![Inactivity Request](/img/staff/inactivity-request.gif)
+
+:::note
+
+If you experience any bugs with the bot let [egg](https://discord.com/users/866085293652181002) or [DylZ](https://discord.com/users/305405455679750155) know.
+
+:::
