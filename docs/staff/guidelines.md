@@ -15,18 +15,24 @@ Although we expect you to follow the rules all the time, we don’t expect you t
 Here are some basic rules we expect you to follow as a staff member.
 _Not every rule is stated here, use common sense._
 
-- Don’t give yourself or others roles that are under you.
-- Don’t manually verify anyone. _(Giving someone the member role without them going through Wick verification.)_
-- Don't joke about very controversial/sensitive topics in public chats.
-- Keep it to one person per ticket, unless you or another support member is added to the ticket.
-- Don’t start arguments for no reason, keep it civil.
-- If the ticket isn’t claimed by you, do not interfere. If you think they’re doing something wrong, tell them on staff chat. Only talk about other peoples tickets in extreme situations.
-- Don’t ever leak confidential information. If you use a message logger, never share deleted messages.
-- Respect the rank hierarchy. Don’t be a “dick” about it though.
-- You must be nice, friendly and respectful in tickets. At no given point you are allowed to insult any member or be disrespectful.
+1. Don’t give yourself or others roles that are under you.
+2. Don’t manually verify anyone. _(Giving someone the member role without them going through Wick verification.)_
+3. Don't joke about very controversial/sensitive topics in public chats.
+4. Don’t start arguments for no reason, keep it civil.
+5. Don’t ever leak confidential information. If you use a message logger, never share deleted messages.
+6. Respect the rank hierarchy. Don’t be a “dick” about it though.
 
 :::danger Important
 
 Breaking any rule, will get you immediately removed from the team and banned as well in some cases.
+
+:::
+
+:::caution Warning
+
+Rule 5 is very important, if you leak any confidential information, you will be removed from the team.
+
+Staff channel content stays in staff channels, even jokes and memes!
+If you get caught leaking any information and it's your first time, you will be given a warning and an hour of mute. If you get caught again, you will be removed from the team.
 
 :::
