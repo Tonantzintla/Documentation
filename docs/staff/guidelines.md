@@ -21,10 +21,10 @@ _Not every rule is stated here, use common sense._
 4. Don’t start arguments for no reason, keep it civil.
 5. Don’t ever leak confidential information. If you use a message logger, never share deleted messages.
 6. Respect the rank hierarchy. Don’t be a “dick” about it though.
-7. If __any of the following__ occur, you might get removed from the team:
-    - A management member determines that your mental health is not in a good state, and you are not able to perform your duties or Sirius is affecting to it.
-    - You openly admit that your mental health is heavily deteriorated.
-    - Multiple inactivity requests about this topic are created.
+7. If **any of the following** occur, you might get removed from the team:
+   - A management member determines that your mental health is not in a good state, and you are not able to perform your duties or Sirius is affecting to it.
+   - You openly admit that your mental health is heavily deteriorated.
+   - Multiple inactivity requests about this topic are created.
 
 :::danger Important
 
