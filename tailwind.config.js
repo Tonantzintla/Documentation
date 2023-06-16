@@ -9,8 +9,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sftext: ["SF Pro Text", "Helvetica Neue", "Helvetica", ...defaultTheme.fontFamily.sans],
-        sfdisplay: ["SF Pro Display", "Helvetica Neue", "Helvetica", ...defaultTheme.fontFamily.sans],
+        sftext: ["SF Pro Text", ...defaultTheme.fontFamily.sans],
+        sfdisplay: ["SF Pro Display", ...defaultTheme.fontFamily.sans],
       },
     },
   },
