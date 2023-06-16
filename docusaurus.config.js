@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/vsDark");
 const config = {
   title: "Sirius Documentation",
   tagline: "Documentation for all Sirius related projects",
-  favicon: "img/favicon.ico",
+  favicon: "https://cdn.sirius.menu/assets/favicons/favicon.ico",
 
   // Set the production url of your site here
   url: "https://docs.sirius.menu",
