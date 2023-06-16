@@ -12,7 +12,7 @@ While we love our staff to be active all the time, we know that things can come 
 
 - Your request **must** be at least three days long.
 - Your request **must** not be longer than a month long
-- You have to wait two weeks between each inactivity request. (Unless told otherwise)
+- You are free to request an inactivity notice whenever you have to, but if the amount of inactivity requests you submit don't correlate with your activity, you will instead be **removed**.
 
 ## Inactivity Request Process
 
