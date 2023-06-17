@@ -19,7 +19,7 @@ In order to become an appeal reviewer, you must contact someone in the managemen
 - Interactions in the appeals channel
 - Ensure that you are mentally capable of handling appeals, without bias and with a clear mind.
 
-## Second chance ppolicy
+## Second chance policy
 The second chance policy is a policy that allows users to appeal almost any punishment after 14 days. The following punishments are not eligible for the second chance policy:
 - Doxxing
 - Product blacklist
