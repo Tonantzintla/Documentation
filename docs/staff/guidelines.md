@@ -25,6 +25,7 @@ _Not every rule is stated here, use common sense._
    - A management member determines that your mental health is not in a good state, and you are not able to perform your duties or Sirius is affecting to it.
    - You openly admit that your mental health is heavily deteriorated.
    - Multiple inactivity requests about this topic are created.
+8. Punishments should not be given out just because want to. You should have a valid reason for giving out a punishment.
 
 :::danger Important
 
