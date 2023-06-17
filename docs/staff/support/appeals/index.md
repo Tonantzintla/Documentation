@@ -15,8 +15,8 @@ sidebar_position: 1
 ## Becoming an appeal reviewer
 In order to become an appeal reviewer, you must contact someone in the management team. The following will be taken into account:
 - Your activity on the server.
-- History of punishments
-- Interactions in the appeals channel
+- History of punishments you gave.
+- Interactions in the appeals channel.
 - Ensure that you are mentally capable of handling appeals, without bias and with a clear mind.
 
 ## Second chance policy
