@@ -77,6 +77,15 @@ const config = {
         // ... other options
       },
     ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "faq",
+        path: "docs/faq",
+        routeBasePath: "/faq",
+        sidebarPath: require.resolve("./sidebars.js"),
+      },
+    ],
     async function myPlugin(context, options) {
       return {
         name: "docusaurus-tailwindcss",

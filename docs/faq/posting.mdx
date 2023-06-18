@@ -1,0 +1,201 @@
+---
+title: In-depth guide on making posts
+sidebar_position: 2
+description: In-depth guide on making support posts
+---
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import Admonition from "@theme/Admonition";
+import CodeBlock from "@theme/CodeBlock";
+
+## So how do I ask my question such that it's easy to help me?
+
+To maximise people's ability to help you with your question, here are some tips for formatting a technical question.
+
+## Where can I post my question?
+
+You can post your question in the Discord forums channel. Post in one channel only, make only one post and don't crosspost. Don’t ask if you can ask either, just post your question and wait for a response.
+
+<details>
+  <summary>Sirius Academy</summary>
+  We have recently launched <a href="https://discord.gg/Q2GrrsjJ6d">Sirius Academy</a>, the one-stop-shop for all support on any development you have, along with fun challenges, tasks and guides to help you too.
+</details>
+
+:::danger Important Note
+_**NEVER**_ open a ticket for anything code/programming support related. Tickets are **NOT** the place to ask for help with code.
+
+Also do not DM staff members they are not here to help you with your code.
+Do not DM other users either asking for help with code. This is considered rude.
+:::
+
+<Tabs>
+  <TabItem value="dos" label="Things to do" default>
+    Please include the following things in your question:
+    <br />
+    <br />
+    <ul>
+      <li>
+        Expectations vs reality:
+        <ul>
+          <li>What you expected to happen</li>
+        </ul>
+      </li>
+      <br />
+      <li>
+        Errors
+        <ul>
+          <li>
+            If your code produced an error, include the <a href="https://en.wikipedia.org/wiki/Stack_trace">stack trace</a> (all of it! Use a code sharing service if it's very long).
+          </li>
+        </ul>
+      </li>
+      <br />
+      <li>
+        Code
+        <ul>
+          <li>
+            The{" "}
+            <b>
+              <i>absolute most critical part</i>
+            </b>
+            . Include all code relevant to your question.
+          </li>
+        </ul>
+      </li>
+      <br />
+      <li>
+        Libraries
+        <ul>
+          <li>If not obvious, say what library/libraries you're using.</li>
+        </ul>
+      </li>
+    </ul>
+    <Admonition type="tip">
+      <p>If your code or error is very long, use a code-sharing service, like GitHub or Hastebin. You will no longer be automatically muted for posting long blocks of code, but please still choose one of the options above so your post isn't flooded with long blocks of code and will make it easier for users to actually find the question you are asking.</p>
+    </Admonition>
+  </TabItem>
+  <TabItem value="donts" label="Things NOT to do">
+    <details>
+      <summary>Do not just say...</summary>
+      <ul>
+        <li>
+          "Hello"
+          <ul>
+            <li>
+              You're trying to be polite by not jumping right into the request, like you would do in person or on the phone. Chat is neither of those things, and typing is much slower than talking. Instead of being polite, you are just making the other person wait for you to phrase your question. See <a href="https://nohello.com">nohello</a> for more information.
+            </li>
+          </ul>
+        </li>
+        <br />
+        <li>
+          "My code doesn't work"/"[thing] didn't fix it"
+          <ul>
+            <li>This description is far too vague to do anything about, and requires long litanies of follow-up questions. People may choose to merely ignore your question because you did not even ask one.</li>
+          </ul>
+        </li>
+        <br />
+        <li>
+          "Can someone help me?"/"Can I ask a question?"
+          <ul>
+            <li>This is in the same vein as the above two examples. This is a non-question that people may choose to just ignore, as finding out the actual question requires a lot of added time and effort.</li>
+          </ul>
+        </li>
+        <br />
+        <li>
+          "Any [subject] experts here?"
+          <ul>
+            <li>Asking if there are any "experts" to help you implies very negative things. You're walling people who do not self-identify as experts (which is most people) off from answering your question, even though the question may not need any specific expertise whatsoever to answer. In general, phrasing your question in this way just discourages people from ever actually answering it.</li>
+          </ul>
+        </li>
+        <br />
+        <li>
+          "Please just give me the code to do [thing]"
+          <ul>
+            <li>"Give someone a fish, and you'll feed them for a day. Teach someone to fish, and you'll feed them for a lifetime." Spoonfeeding you answers is in nobody's best interest. If you are given the answer on a silver platter, you'll be back the next day with the same problem without even realizing it's the same problem, because you learned nothing. Helping you understand the logic will help you understand how to arrive at the answer yourself, and will help you be able to write solutions to the same problem yourself in the future.</li>
+          </ul>
+        </li>
+      </ul>
+    </details>
+    <details>
+      <summary>When posting your question, do not...</summary>
+      <ul>
+        <li>
+          Crosspost
+          <ul>
+            <li>Please refrain from posting your question in multiple channels, or linking the channel elsewhere. If someone knew e.g. Python, they would be in the Python channel; asking in irrelevant channels is just spam. Be patient in waiting for an answer, as it may take time for someone with adequate knowledge to answer your question. A well-structured question as per directives above will help you get help quicker.</li>
+          </ul>
+        </li>
+        <br />
+        <li>
+          Send screenshots of code, and especially pictures of a monitor displaying code
+          <ul>
+            <li>These can vary from impossible to copy and edit to completely illegible depending on how poor the photography is.</li>
+          </ul>
+        </li>
+        <br />
+        <li>
+          Ask about your attempted solution rather than your actual problem
+          <ul>
+            <li>
+              This is called "the XY problem". See <a href="https://xyproblem.info">The XY Problem</a> for more information.
+            </li>
+          </ul>
+        </li>
+        <br />
+        <li>
+          Post "fake code"
+          <ul>
+            <li>
+              Attempting to obfuscate what you are doing by rewriting your actual code into a generic "fake" version is extremely error-prone and is nigh-guaranteed to result in you getting an incorrect answer. <i>"Fake code gives fake answers"</i> is a phrase commonly used to describe this. If what you are doing is so sensitive that you cannot even disclose basic code (which is often very generic and non-identifying), you would probably not be asking your question on the internet at all.
+            </li>
+          </ul>
+        </li>
+        <br />
+      </ul>
+    </details>
+    <Admonition type="caution" title="Note">
+      <p>
+        Understand that{" "}
+        <b>
+          you are <i>not</i> entitled to receive help
+        </b>
+        .<br />
+        People can choose to help who they like. Be patient in waiting for an answer, and be cooperative with the people helping you.
+        <br />
+        <br />
+        As the person asking, it is your responsibility to ensure that you can be helped.
+      </p>
+    </Admonition>
+  </TabItem>
+</Tabs>
+
+### How can I post code on Discord?
+
+Discord has a character limit of 2000 characters per message. If your code is longer than that, you can use a code-sharing service, like GitHub or Hastebin. You will no longer be automatically muted for posting long blocks of code, but please still choose one of the options above so your post isn't flooded with long blocks of code and will make it easier for users to actually find the question you are asking.
+
+#### Code blocks
+
+Discord supports code blocks, which are a way of formatting code in a way that is easy to read.
+
+<Tabs>
+  <TabItem value="inlineblocks" label="Inline code blocks" default>
+    <p>First off, you have inline blocks that can be created using backticks (`) on each side of your code.</p>
+    <p>
+      For example, `print("Hello, world!")` will produce <code>print("Hello, world!")</code>.
+    </p>
+    <p>These blocks cannot have syntax highlighting and will look odd with multi-line content, so it's probably wise to only use them for short, one-line snippets.</p>
+  </TabItem>
+  <TabItem value="multilineblocks" label="Multiline code blocks">
+    <p>Then you have the standard, multiline blocks that also include syntax highlighting. You can make use of those by surrounding your code with three backticks (`) on each side. You can also enable syntax highlighting by typing the name of the language right after the first three backticks.</p>
+    <p>For example,</p>
+    <CodeBlock language="lua">
+{`\`\`\`lua
+print("Hello, world!")
+\`\`\``}
+    </CodeBlock>
+    <p>will produce</p>
+    <CodeBlock>print("Hello, world!")</CodeBlock>
+
+  </TabItem>
+</Tabs>
