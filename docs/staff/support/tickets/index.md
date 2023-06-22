@@ -72,6 +72,7 @@ If you don't know how to help the user and need to ask someone, but you are unsu
 | [**Razr**](https://discord.com/users/1100862906486227044)    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :x:                | :white_check_mark: |
 | [**Egg**](https://discord.com/users/866085293652181002)      | :white_check_mark: | :x:                | :x:                | :white_check_mark: | :x:                | :x:                | :white_check_mark: |
 | [**Gigi**](https://discord.com/users/389759544776982528)     | :x:                | :x:                | :x:                | :x:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| [**Max**](https://discord.com/users/876167580472184882)    | :x: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | [**Nirvana**](https://discord.com/users/771036216128307240)  | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :white_check_mark: |
 | [**Humpolec**](https://discord.com/users/402091227933179904) | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :white_check_mark: |
 | [**Triangle**](https://discord.com/users/670545925898502157) | :white_check_mark: | :x:                | :white_check_mark: | :white_check_mark: | :x:                | :x:                | :white_check_mark: |
