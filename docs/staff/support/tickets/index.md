@@ -66,8 +66,9 @@ If you don't know how to help the user and need to ask someone, but you are unsu
 <!-- Fox 618782669723009027 -> sirius, roblox, other -->
 <!-- DylZ 305405455679750155 -> All but web and vps -->
 
-|                                                              | Sirius             | Lua                | Luaguard           | Roblox             | Websites           | VPS                | Other              |
+|                                                              | Sirius             | Lua                | Luarmor            | Roblox             | Websites           | VPS                | Other              |
 | :----------------------------------------------------------- | :----------------- | :----------------- | :----------------- | :----------------- | :----------------- | :----------------- | :----------------- |
+| [**shlex**](https://discord.com/users/837791888643588136)    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: | :white_check_mark: |
 | [**Zumo**](https://discord.com/users/440599126401613865)     | :white_check_mark: | :x:                | :white_check_mark: | :white_check_mark: | :x:                | :x:                | :white_check_mark: |
 | [**Razr**](https://discord.com/users/1100862906486227044)    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :x:                | :white_check_mark: |
 | [**Egg**](https://discord.com/users/866085293652181002)      | :white_check_mark: | :x:                | :x:                | :white_check_mark: | :x:                | :x:                | :white_check_mark: |
