@@ -1,7 +1,7 @@
 ---
 title: Changelog
 sidebar_position: 5
-image: /img/arrayfield/arrayfieldbg.png
+image: /img/arrayfield/arrayfieldb.jpg
 description: Changelogs
 ---
 

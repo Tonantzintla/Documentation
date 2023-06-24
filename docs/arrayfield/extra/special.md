@@ -1,7 +1,7 @@
 ---
 title: ArrayField
 sidebar_position: 1
-image: /img/arrayfield/arrayfieldbg.png
+image: /img/arrayfield/arrayfieldbg.jpg
 description: Credits for the people that help and the original products
 ---
 

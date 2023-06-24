@@ -1,7 +1,7 @@
 ---
 title: Script Template
 sidebar_position: 3
-image: /img/arrayfield/arrayfieldbg.png
+image: /img/arrayfield/arrayfieldb.jpg
 description: Template
 ---
 
@@ -11,7 +11,7 @@ description: Template
 local ArrayField = loadstring(game:HttpGet('https://raw.githubusercontent.com/UI-Interface/ArrayField/main/Source'))()
 local Window = ArrayField:CreateWindow({
 		Name = "ArrayField Example Window",
-		LoadingTitle = "ArrayField Interface Suite  ",
+		LoadingTitle = "ArrayField Interface Suite",
 		LoadingSubtitle = "by Arrays",
 		ConfigurationSaving = {
 			Enabled = true,

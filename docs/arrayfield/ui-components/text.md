@@ -1,7 +1,7 @@
 ---
 title: Textual elements
 sidebar_position: 1
-image: /img/arrayfield/arrayfieldbg.png
+image: /img/arrayfield/arrayfieldbg.jpg
 description: How to create textual elements
 ---
 

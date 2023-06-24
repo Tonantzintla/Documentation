@@ -1,7 +1,7 @@
 ---
 title: Binds
 sidebar_position: 2
-image: /img/arrayfield/arrayfieldbg.png
+image: /img/arrayfield/arrayfieldbg.jpg
 description: How to create keybinds
 ---
 

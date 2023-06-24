@@ -1,13 +1,13 @@
 ---
 title: Elements
 sidebar_position: 1
-image: /img/arrayfield/arrayfieldbg.png
+image: /img/arrayfield/arrayfieldbg.jpg
 description: How to create interactive elements
 ---
 
 # Adding interactive elements
 
-If you find any bugs you can contact Arrays by Joining the discord server ([discord.gg/sirius](discord.gg/sirius)) and head to the forum called ArrayField.
+If you find any bugs you can contact Arrays by Joining the discord server ([discord.gg/sirius](https://discord.gg/sirius)) and head to the forum called ArrayField.
 
 - Suggest things to add!
 - You can help me fix bugs!

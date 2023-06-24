@@ -1,7 +1,7 @@
 ---
 title: Introduction
 sidebar_position: 1
-image: /img/arrayfield/arrayfieldbg.png
+image: /img/arrayfield/arrayfieldbg.jpg
 description: ArrayField is a updated and improved version of Rayfield interface suite for Roblox.
 ---
 

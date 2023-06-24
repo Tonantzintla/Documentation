@@ -1,7 +1,7 @@
 ---
 title: Booting the Library
 sidebar_position: 2
-image: /img/arrayfield/arrayfieldbg.png
+image: /img/arrayfield/arrayfieldbg.jpg
 description: How to boot the ArrayField Library
 ---
 

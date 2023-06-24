@@ -1,7 +1,7 @@
 ---
 title: Windows
 sidebar_position: 3
-image: /img/arrayfield/arrayfieldb.png
+image: /img/arrayfield/arrayfieldb.jpg
 description: How to create a window
 ---
 
