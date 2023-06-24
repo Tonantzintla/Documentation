@@ -5,6 +5,7 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
+    "dev": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
@@ -24,8 +25,8 @@
     "@docusaurus/theme-search-algolia": "^2.4.1",
     "@docusaurus/types": "^2.4.1",
     "@mdx-js/react": "^1.6.22",
-    "algoliasearch": "^4.17.2",
-    "algoliasearch-helper": "^3.13.2",
+    "algoliasearch": "^4.18.0",
+    "algoliasearch-helper": "^3.13.3",
     "clsx": "^1.2.1",
     "prism-react-renderer": "^1.3.5",
     "react": "^17.0.2",
