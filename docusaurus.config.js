@@ -91,7 +91,7 @@ const config = {
       {
         id: "arrayfield",
         path: "docs/arrayfield",
-        routeBasePath: "/arrayfield",
+        routeBasePath: "/community/arrayfield",
         sidebarPath: require.resolve("./sidebars.js"),
       },
     ],
@@ -139,6 +139,17 @@ const config = {
           {
             to: "/sense",
             label: "Sense",
+            position: "left",
+          },
+          {
+            type: "dropdown",
+            label: "Community",
+            items: [
+              {
+                to: "/community/arrayfield",
+                label: "Arrayfield",
+              },
+            ],
             position: "left",
           },
           {

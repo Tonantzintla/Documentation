@@ -27,7 +27,7 @@ export default function Home() {
         <meta property="og:image:alt" content="Sirius Documentation" />
         <meta name="description" property="og:description" content="Documentation for all Sirius related projects" />
       </Head>
-      <main className="flex items-center">
+      <main className="flex h-screen items-center">
         <div className="mx-auto py-6 sm:py-8 lg:py-12">
           <div className=" w-screen px-4 md:px-8">
             <div className="mb-10 md:mb-16">
@@ -42,6 +42,21 @@ export default function Home() {
           </div>
         </div>
       </main>
+
+      <section className="mb-[25vh] flex items-center">
+        <div className="mx-auto py-6 sm:py-8 lg:py-12">
+          <div className=" w-screen px-4 md:px-8">
+            <div className="mb-10 md:mb-16">
+              <h1 className="mb-1 text-center font-sfdisplay text-2xl font-bold dark:text-white lg:text-3xl">Community Documentation</h1>
+              <p className="mx-auto max-w-screen-md text-center font-sfdisplay dark:text-neutral-200 md:text-lg">Documentation for all the projects the community has made</p>
+            </div>
+
+            <CardLayout>
+              <Card imgurl="/img/arrayfield/arrayfieldbg.jpg" name="ArrayField" link="/community/arrayfield" />
+            </CardLayout>
+          </div>
+        </div>
+      </section>
     </Layout>
   );
 }
