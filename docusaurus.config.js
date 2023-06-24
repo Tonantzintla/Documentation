@@ -86,6 +86,15 @@ const config = {
         sidebarPath: require.resolve("./sidebars.js"),
       },
     ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "arrayfield",
+        path: "docs/arrayfield",
+        routeBasePath: "/arrayfield",
+        sidebarPath: require.resolve("./sidebars.js"),
+      },
+    ],
     async function myPlugin(context, options) {
       return {
         name: "docusaurus-tailwindcss",
