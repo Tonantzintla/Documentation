@@ -8,7 +8,7 @@ description: How to boot the ArrayField Library
 ## Loading the ArrayField Library
 
 ```lua
-local ArrayField = loadstring(game:HttpGet('https://raw.githubusercontent.com/UI-Interface/ArrayField/main/Source'))()
+local ArrayField = loadstring(game:HttpGet('https://raw.githubusercontent.com/UI-Interface/ArrayField/main/Source.lua'))()
 ```
 
 ### Secure Mode
