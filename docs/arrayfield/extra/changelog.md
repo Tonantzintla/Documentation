@@ -8,21 +8,21 @@ description: Changelogs
 ### Release 1A
 
 <details>
-  <summary>[Expired]</summary>
+  <summary>Current</summary>
   <div>
-    <div>[Removed]</div>
+    <div>Changelogs</div>
     <br/>
     <details>
       <summary>
-        [Removed]
+        A2
       </summary>
       <div></div>
     </details>
     <details>
       <summary>
-        [News]
+        Documentation
       </summary>
-      <div>[CONTENT MOVED]</div>
+      <div>No changelogs</div>
     </details>
   </div>
   
