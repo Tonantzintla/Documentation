@@ -38,5 +38,5 @@ ArrayField is a solo project created by Array's. It was initially a temporary ve
 
 :::note
 **ArrayField** is not a product made by the Sirius team.  
-Making tickets about this products will get you blacklisted from doing so.
+Making tickets about this product will get you blacklisted from doing so.
 :::
