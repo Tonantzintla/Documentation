@@ -11,7 +11,7 @@ sidebar_position: 1
 2. Only the management team can blacklist users from appealing.
 3. Appeals can only be handled using Wick
 4. The reason of the punishment should be verified by running the _.cases_ command.
-5. The staff member who issed the punishment isn't allowed to handle the appeal. Context and information might be given by the staff member who issued the punishment, but the appeal must be handled by someone else. **Magaement and higher are exempt from this rule.**
+5. The staff member who issued the punishment isn't allowed to handle the appeal. Context and information might be given by the staff member who issued the punishment, but the appeal must be handled by someone else. **Magaement and higher are exempt from this rule.**
 
 ## Becoming an appeal reviewer
 
