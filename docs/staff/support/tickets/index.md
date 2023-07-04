@@ -57,6 +57,7 @@ If you don't know how to help the user and need to ask someone, but you are unsu
 
 |                                                              | Sirius             | Lua                | Luarmor            | Roblox             | Websites           | VPS                | Other              |
 | :----------------------------------------------------------- | :----------------- | :----------------- | :----------------- | :----------------- | :----------------- | :----------------- | :----------------- |
+| [**calcium**](https://discord.com/users/1018551539482230936) | :white_check_mark: | :x:                | :white_check_mark: | :white_check_mark: | :x:                | :x:                | :white_check_mark: |
 | [**shlex**](https://discord.com/users/837791888643588136)    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: | :white_check_mark: |
 | [**Zumo**](https://discord.com/users/440599126401613865)     | :white_check_mark: | :x:                | :white_check_mark: | :white_check_mark: | :x:                | :x:                | :white_check_mark: |
 | [**Razr**](https://discord.com/users/1100862906486227044)    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :x:                | :white_check_mark: |
@@ -70,6 +71,7 @@ If you don't know how to help the user and need to ask someone, but you are unsu
 | [**Fox**](https://discord.com/users/618782669723009027)      | :white_check_mark: | :x:                | :x:                | :white_check_mark: | :x:                | :x:                | :white_check_mark: |
 | [**DylZ**](https://discord.com/users/305405455679750155)     | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :x:                | :white_check_mark: |
 
+
 ### Definitions
 
 <dl>
@@ -78,8 +80,8 @@ If you don't know how to help the user and need to ask someone, but you are unsu
   <dt><b>Lua</b></dt>
   <dd>With Lua, we mean the Lua programming language and anything related to it.</dd>
   <dd>Anything related meaning: Lua scripts, Rayfield, Sense, etc.</dd>
-  <dt><b>Luaguard</b></dt>
-  <dd>With Luaguard, we mean the whitelisting service and anything related to it.</dd>
+  <dt><b>Luarmor</b></dt>
+  <dd>With Luarmor, we mean the whitelisting service and anything related to it.</dd>
   <dt><b>Roblox</b></dt>
   <dd>With Roblox, we mean the Roblox game platform and anything related to it.</dd>
   <dt><b>Websites</b></dt>
