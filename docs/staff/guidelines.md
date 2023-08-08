@@ -29,7 +29,7 @@ _Not every rule is stated here, use common sense._
 
 :::danger Important
 
-Breaking any rule, will get you immediately removed from the team and banned as well in some cases.
+Breaking any rule, will get you <ins>[striked](https://docs.sirius.menu/staff/support/strikes)</ins> and depending on the severity of the rule, you may be removed from the team.
 
 :::
 
