@@ -19,35 +19,24 @@ Here's how:
 
 <Tabs>
   <TabItem value="step1" label="Step 1" default>
-    After getting the appropriate proof from the user to verify the purchase, run the <code>/whitelist</code> slash command on them. The beta argument is pointless at this date.
+    After getting the appropriate proof from the user to verify the purchase, run the <code>/whitelist</code> slash command on them. Always add a "note" depending on their tier.
     <img src={useBaseUrl("/img/staff/whitelistcommand.png")} alt="Whitelist Command" style={{marginTop: "1rem"}} />
   </TabItem>
   <TabItem value="step2" label="Step 2">
-    After pressing enter, an embed sent from the Sirius bot should appear, this is where you can select which version of the product they can be whitelisted for. <br /> If someone bought Sirius Professional, select that option, if they bought Essential, select the Essential option.
-    <img src={useBaseUrl("/img/staff/whitelistembed.gif")} alt="Whitelist Embed" style={{marginTop: "1rem", marginBottom: "1rem"}} />
-
-:::caution Warning
-
-Sirius beta should never be chosen. It was a different Sirius tier but has been removed
-
-:::
-
-  </TabItem>
-  <TabItem value="step3" label="Last Step">
-  Remember to thank the user for their purchase and to close the ticket.
+    After running the comand, thank the user for purchasing and log the purchase as shown below.
   </TabItem>
 </Tabs>
 
 ### Logging a purchase
 
-In order to log a purchase that's not logged automatically you have to use the `;logpurchase` command.
+In order to log a purchase that's not logged automatically you have to use the `!logpurchase` command.
 You can use this command anywhere, but it's recommended to use it in the ticket channel or in the [#manual-purchase-logs](https://discord.com/channels/939553319750344744/939910602564968538) channel.
 
 For example, to log a Roblox purchase you use the following format:
-`;logpurchase roblox <discord ID or mention> <roblox profile link> | Robux`
+`!logpurchase <discord ID or mention> <Pro/Essential> <Proof>`
 
 Example:
-`;logpurchase roblox 123456789012345678 https://www.roblox.com/users/1234567890/profile | Robux`
+`;logpurchase @zumo Pro | https://www.roblox.com/users/231536415/profile`
 
 <img src={useBaseUrl("/img/staff/logpurchase-command.png")} alt="Logpurchase Command" style={{ marginTop: "1rem", marginBottom: "1rem" }} />
 
