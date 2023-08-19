@@ -52,52 +52,6 @@ Unless asked for by the person who has claimed it!
 :::
 
 ## Support
+All Support members should have sufficient knwoledge about the script, so feel free to ask others for help.
 
-If you don't know how to help the user and need to ask someone, but you are unsure of who to ask, check the following table for a quick reference who you can ask which type of questions.
-
-|                                                              | Sirius             | Lua                | Luarmor            | Roblox             | Websites           | VPS                | Other              |
-| :----------------------------------------------------------- | :----------------- | :----------------- | :----------------- | :----------------- | :----------------- | :----------------- | :----------------- |
-| [**calcium**](https://discord.com/users/1018551539482230936) | :white_check_mark: | :x:                | :white_check_mark: | :white_check_mark: | :x:                | :x:                | :white_check_mark: |
-| [**shlex**](https://discord.com/users/837791888643588136)    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: | :white_check_mark: |
-| [**Zumo**](https://discord.com/users/440599126401613865)     | :white_check_mark: | :x:                | :white_check_mark: | :white_check_mark: | :x:                | :x:                | :white_check_mark: |
-| [**Razr**](https://discord.com/users/1100862906486227044)    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :x:                | :white_check_mark: |
-| [**Egg**](https://discord.com/users/866085293652181002)      | :white_check_mark: | :x:                | :x:                | :white_check_mark: | :x:                | :x:                | :white_check_mark: |
-| [**Gigi**](https://discord.com/users/389759544776982528)     | :x:                | :x:                | :x:                | :x:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| [**Max**](https://discord.com/users/876167580472184882)      | :x:                | :white_check_mark: | :x:                | :x:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| [**Nirvana**](https://discord.com/users/771036216128307240)  | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :white_check_mark: |
-| [**Humpolec**](https://discord.com/users/402091227933179904) | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :white_check_mark: |
-| [**Triangle**](https://discord.com/users/670545925898502157) | :white_check_mark: | :x:                | :white_check_mark: | :white_check_mark: | :x:                | :x:                | :white_check_mark: |
-| [**zu0t**](https://discord.com/users/437532245574680577)     | :x:                | :x:                | :x:                | :x:                | :x:                | :x:                | :white_check_mark: |
-| [**Fox**](https://discord.com/users/618782669723009027)      | :white_check_mark: | :x:                | :x:                | :white_check_mark: | :x:                | :x:                | :white_check_mark: |
-| [**DylZ**](https://discord.com/users/305405455679750155)     | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :x:                | :white_check_mark: |
-
-
-### Definitions
-
-<dl>
-  <dt><b>Sirius</b></dt>
-  <dd>With Sirius, we mean the Sirius script/loader and anything related to it.</dd>
-  <dt><b>Lua</b></dt>
-  <dd>With Lua, we mean the Lua programming language and anything related to it.</dd>
-  <dd>Anything related meaning: Lua scripts, Rayfield, Sense, etc.</dd>
-  <dt><b>Luarmor</b></dt>
-  <dd>With Luarmor, we mean the whitelisting service and anything related to it.</dd>
-  <dt><b>Roblox</b></dt>
-  <dd>With Roblox, we mean the Roblox game platform and anything related to it.</dd>
-  <dt><b>Websites</b></dt>
-  <dd>With Websites, we mean the websites that we own (*.sirius.menu).</dd>
-  <dt><b>VPS</b></dt>
-  <dd>With VPS, we mean the VPS itself and anything hosted on it.</dd>
-  <dd>Anything hosted on it meaning: @Sirius License, apply.sirius.menu, buy.sirius.menu, status.sirius.menu and MongoDB Instance.</dd>
-  <dt><b>Other</b></dt>
-  <dd>With Other, we mean anything that doesn't fit in the other categories particularly.</dd>
-  <dd>
-    <b>Examples:</b>
-    <ul>
-      <li>Stripe (only Gigi)</li>
-      <li>Moderator actions like warnings, bans, etc</li>
-      <li>Status of things</li>
-      <li>Staff complaints/issues (limited to Admin+)</li>
-    </ul>
-  </dd>
-</dl>
+Do not ask Gigi for help about Lua or the script, he doesn't know anything about life, only websites.
