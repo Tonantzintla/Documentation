@@ -63,7 +63,7 @@ function DropdownNavbarItemDesktop({ items, position, className, onClick, ...pro
       >
         {props.children ?? props.label}
       </NavbarNavLink>
-      <ul className="dropdown__menu flex flex-col gap-1 !bg-[#1d1d1e] !p-1">
+      <ul className="dropdown__menu flex flex-col gap-1 !p-1">
         {items.map((childItemProps, i) => (
           <NavbarItem isDropdownItem className={"!m-0 !px-2 !py-3"} activeClassName="dropdown__link--active" {...childItemProps} key={i} />
         ))}
