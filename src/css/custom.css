@@ -91,20 +91,37 @@ html {
 }
 
 .navbar {
+  height: 3.5rem;
+}
+
+.navbar::before,
+.dropdown__menu::before {
   background-color: #000000;
+  z-index: -1;
+  content: "";
+  display: block;
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: absolute;
   transition: background-color 0.5s cubic-bezier(0.28, 0.11, 0.32, 1);
   transition-property: background-color, backdrop-filter, -webkit-backdrop-filter;
   --tw-saturate: saturate(180%);
   --tw-backdrop-blur: blur(20px);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-  height: 3.5rem;
   backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
-[data-theme="dark"] .navbar {
+[data-theme="dark"] .navbar::before,
+[data-theme="dark"] .dropdown__menu::before {
   background-color: #1d1d1eb3;
 }
 
+.navbar,
+.dropdown__menu {
+  background-color: transparent;
+}
 .footer {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -127,7 +144,6 @@ html {
 
 .navbar__item {
   color: #ffffff;
-  opacity: 0.8;
 }
 
 .navbar__link--active {
