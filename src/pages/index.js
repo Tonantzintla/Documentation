@@ -27,9 +27,9 @@ export default function Home() {
         <meta property="og:image:alt" content="Sirius Documentation" />
         <meta name="description" property="og:description" content="Documentation for all Sirius related projects" />
       </Head>
-      <main className="flex h-screen items-center">
+      <main className="flex h-[70vh] items-center">
         <div className="mx-auto py-6 sm:py-8 lg:py-12">
-          <div className=" w-screen px-4 md:px-8">
+          <div className="w-screen px-4 md:px-8">
             <div className="mb-10 md:mb-16">
               <h1 className="mb-1 text-center font-sfdisplay text-2xl font-bold dark:text-white lg:text-3xl">Sirius Documentation</h1>
               <p className="mx-auto max-w-screen-md text-center font-sfdisplay dark:text-neutral-200 md:text-lg">Documentation for all Sirius related projects</p>
@@ -48,7 +48,10 @@ export default function Home() {
           <div className=" w-screen px-4 md:px-8">
             <div className="mb-10 md:mb-16">
               <h1 className="mb-1 text-center font-sfdisplay text-2xl font-bold dark:text-white lg:text-3xl">Community Documentation</h1>
-              <p className="mx-auto max-w-screen-md text-center font-sfdisplay dark:text-neutral-200 md:text-lg">Documentation for all the projects the community has made</p>
+              <p className="mx-auto max-w-screen-md text-center font-sfdisplay dark:text-neutral-200 md:text-lg">
+                Documentation for all the projects the community has made <br />
+                <span className="mx-auto max-w-screen-md text-center font-sfdisplay text-xs opacity-30 dark:text-neutral-200">Not associated with Sirius in any way</span>
+              </p>
             </div>
 
             <CardLayout>
