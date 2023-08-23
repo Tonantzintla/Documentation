@@ -4,4 +4,4 @@
 
 ## About
 
-Sirius Documentation is a website designed to provide documentation for various projects related to Sirius, such as Rayfield and Sense. The website is intended to be a comprehensive resource for users who are interested in working with these project and how they can be used.
+[![Docs](https://i.imgur.com/3c1r8nt.jpg)](https://docs.sirius.menu/)
