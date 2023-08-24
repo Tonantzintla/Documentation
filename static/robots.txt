@@ -3,5 +3,8 @@ Disallow: /staff$
 Disallow: /staff/
 
 User-agent: Algolia Crawler
+Disallow: /staff$
+Disallow: /staff/
 Disallow: /faq$
 Disallow: /faq/
+
