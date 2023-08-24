@@ -6,33 +6,24 @@ const darkCodeTheme = require("prism-react-renderer/themes/vsDark");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Sirius Documentation",
-  tagline: "Documentation for all Sirius related projects",
+  title: "Docs",
+  tagline: "Documentation for all projects",
   favicon: "https://cdn.sirius.menu/assets/favicons/favicon.ico?v=4",
 
-  // Set the production url of your site here
-  url: "https://docs.sirius.menu",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
-
   // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "SiriusDevelopmentGroup", // Usually your GitHub org/user name.
-  projectName: "Sirius-Docs", // Usually your repo name.
+  url: "https://docs.sirius.menu",
+  baseUrl: "/",
+  organizationName: "SiriusDevelopmentGroup",
+  projectName: "Documentation",
   trailingSlash: false,
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
 
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
     locales: ["en"],
   },
-
   presets: [
     [
       "@docusaurus/preset-classic",
@@ -116,7 +107,6 @@ const config = {
         disableSwitch: false,
         respectPrefersColorScheme: false,
       },
-      // You can configure additional HTML metadata (and override existing ones).
       metadata: [
         { name: "theme-color", content: "#2B2D31" },
         { property: "og:type", content: "article" },
@@ -125,7 +115,6 @@ const config = {
         { property: "og:site_name", content: "Sirius Documentation" },
         { name: "twitter:card", content: "summary_large_image" },
       ],
-      // Replace with your project's social card
       image: "img/Docs.png",
       navbar: {
         title: "Documentation",
@@ -142,19 +131,20 @@ const config = {
             position: "left",
           },
           {
+            type: "search",
+            position: "right",
+          },
+          {
             type: "dropdown",
             label: "Community",
             items: [
+              // Add your project under the last item
               {
                 to: "/community/arrayfield",
                 label: "Arrayfield",
               },
             ],
             position: "left",
-          },
-          {
-            type: "search",
-            position: "right",
           },
         ],
       },
@@ -171,7 +161,7 @@ const config = {
         contextualSearch: false,
       },
       footer: {
-        copyright: `Copyright © ${new Date().getFullYear()} Sirius`,
+        copyright: `Powered by Sirius Documentation`,
       },
     }),
 };
