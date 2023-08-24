@@ -1,9 +1,8 @@
 ---
-title: Sirius Support
+title: Sirius Staff
 sidebar_position: 1
 ---
 
-## Official Support Documentation
+## Official Staff Documentation
 
-Authored by zumo#8222 & egg#0003  
-Ported to this website by Darth Gigi#0124
+If you are not a staff member, you won't find anything interesting here.
