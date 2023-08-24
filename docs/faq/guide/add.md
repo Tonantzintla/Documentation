@@ -4,7 +4,7 @@ sidebar_position: 2
 description: Adding your project's documentation to the site
 ---
 
-You've set up your project's documentation in the [previous step](/docs/faq/guide/setup). Now, you need to add your project's documentation to the site.
+You've set up your project's documentation in the [previous step](/faq/guide/setup). Now, you need to add your project's documentation to the site.
 
 ## Adding content
 
