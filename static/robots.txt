@@ -1,3 +1,7 @@
 User-agent: *
 Disallow: /staff$
 Disallow: /staff/
+
+User-agent: Algolia Crawler
+Disallow: /faq$
+Disallow: /faq/
