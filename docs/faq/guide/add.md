@@ -11,7 +11,7 @@ You've set up your project's documentation in the [previous step](/faq/guide/set
 First create a homepage for your project's documentation. Create a file called `index.md` in the folder you created for your project's documentation. For example, if your project is called `my-project`, you should create a file called `index.md` in the folder `src/pages/community/my-project/`.
 
 That's it! You can now add content to your project's documentation. To learn what kinds of features you can use, check out the [Docusaurus documentation](https://docusaurus.io/docs/markdown-features).  
-You can also use other's projects documentation as reference, for example, check out Rayfield's files to understand how you can format and layout your documentation.
+You can also use other project documentations as reference. For example, check out Rayfield's files to understand how you can format and layout your documentation.
 
 ### Adding images to your documentation
 
