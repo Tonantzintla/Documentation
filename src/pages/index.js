@@ -2,9 +2,15 @@ import React from "react";
 import Layout from "@theme/Layout";
 import Head from "@docusaurus/Head";
 import Image from "@theme/IdealImage";
+import projects from "../json/projects.json";
+
+<head>
+  <title>Sirius Documentation</title>
+  <meta name="title" content="Sirius Documentation" />
+</head>;
 
 function CardLayout({ children }) {
-  return <div className="flex h-full w-full flex-col items-center justify-center gap-4 pb-4 md:flex-row md:gap-6 md:pb-6 xl:gap-8 xl:pb-8">{children}</div>;
+  return <div className="flex h-full w-full flex-col flex-wrap items-center justify-center gap-4 pb-4 md:flex-row md:gap-6 md:pb-6 xl:gap-8 xl:pb-8">{children}</div>;
 }
 
 function Card({ imgurl, name, link }) {
@@ -55,7 +61,9 @@ export default function Home() {
             </div>
 
             <CardLayout>
-              <Card imgurl="/img/arrayfield/arrayfieldbg.jpg" name="ArrayField" link="/community/arrayfield" />
+              {projects.map((card) => (
+                <Card imgurl={`/img${card.image}`} name={card.name} link={`/community${card.link}`} />
+              ))}
             </CardLayout>
           </div>
         </div>
