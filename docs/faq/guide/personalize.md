@@ -39,20 +39,13 @@ We allow you to change basically everything in the frontmatter of the markdown f
 
 ## Disabling search functionality
 
-If you do not want your project's documentation to be searchable or indexed by search engines, you can configure your documentation to not be crawled by search engines or just Algolia. Change the `robots.txt` file in the `static/` folder to the following:
+If you do not want your project's documentation to be searchable, you can configure your documentation to not be crawled by Algolia. Change the `robots.txt` file in the `static/` folder to the following:
 
-<Tabs>
-  <TabItem value="algolia" label="Algolia" default>
-    <CodeBlock language="txt" title="/static/robots.txt">
-      {`User-agent: Algolia Crawler \nDisallow: /community/my-project$ \nDisallow: /community/my-project/`}
-    </CodeBlock>
-  </TabItem>
-  <TabItem value="all" label="Search Engines">
-    <CodeBlock language="txt" title="/static/robots.txt">
-      {`User-agent: * \nDisallow: /community/my-project$ \nDisallow: /community/my-project/`}
-    </CodeBlock>
-  </TabItem>
-</Tabs>
+```txt {2-3}
+User-agent: *
+Disallow: /community/my-project
+Disallow: /community/my-project/
+```
 
 :::note
 
