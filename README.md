@@ -4,4 +4,4 @@
 
 ## About
 
-[![Docs](https://i.imgur.com/3c1r8nt.jpg)](https://docs.sirius.menu/)
+[![Docs](https://i.imgur.com/fzaShxk.jpg)](https://docs.sirius.menu/)
