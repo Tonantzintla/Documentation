@@ -138,4 +138,6 @@ This makes sure that your project is visible on the homepage.
 
 Without registering your project's documentation to the site, it will not be visible on the site and we won't accept any pull requests to add your project's documentation to the site.
 
+Also make sure to check if the site actually builds with `pnpm build` before making a pull request. If the site doesn't build, we won't accept your pull request.
+
 :::

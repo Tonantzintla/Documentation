@@ -37,6 +37,14 @@ We allow you to change basically everything in the frontmatter of the markdown f
 
 :::
 
+:::tip Tip
+
+Use the [Discord Embeds](https://chrome.google.com/webstore/detail/discord-embeds/faeojpkidgnhcochgodeklokfimbencc) extension to see how your embeds will look like inside discord.
+
+You can also use Discord's [Embed Debugger](https://discord.com/developers/embeds), however, for this to work your documentation must be live.
+
+:::
+
 ## Disabling search functionality
 
 If you do not want your project's documentation to be searchable, you can configure your documentation to not be crawled by Algolia. Change the `robots.txt` file in the `static/` folder to the following:
