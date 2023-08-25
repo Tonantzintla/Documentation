@@ -8,7 +8,7 @@ If you need help with anything or have any questions, don't be afraid to reach o
 
 So feel free to:
 
-- Join our [Discord server](https://discord.gg/sirius) and make a post in the forums channel pinging Gigi
+- Join our [Discord server](https://sirius.menu/discord) and make a post in the forums channel pinging Gigi
 - Join [Sirius Academy](https://discord.gg/Q2GrrsjJ6d) and make a post in the forums channel pinging Gigi
 - DM [@tim_cook](https://discord.com/users/389759544776982528) (Gigi) on Discord
 - Create an issue on [GitHub](https://github.com/SiriusDevelopmentGroup/Documentation)
