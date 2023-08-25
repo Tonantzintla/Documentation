@@ -60,6 +60,8 @@ Disallow: /community/my-project/
 We have configured the Algolia Crawler to crawl the whole website (while ignoring the links in robots.txt) every Sunday at 12:00 AM UTC.  
 So if you add new content to your project's documentation, it will be searchable on the next Sunday.
 
+You may request a manual crawl by contacting us on our [Discord server](https://sirius.menu/discord).
+
 _This is subject to change. As we're open to increase the frequency of crawling._
 
 :::
