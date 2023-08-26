@@ -1,0 +1,9 @@
+{
+  "label": "Your Documentation",
+  "position": 1,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Adding your project's documentation"
+  }
+}

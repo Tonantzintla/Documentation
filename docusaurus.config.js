@@ -8,12 +8,12 @@ const darkCodeTheme = require("prism-react-renderer/themes/vsDark");
 const config = {
   title: "Docs",
   tagline: "Documentation for all projects",
-  favicon: "https://cdn.sirius.menu/assets/favicons/favicon.ico?v=4",
+  favicon: "/assets/favicons/favicon.ico?v=5",
 
   // GitHub pages deployment config.
-  url: "https://docs.sirius.menu",
+  url: "https://docs.tonantzintla.org",
   baseUrl: "/",
-  organizationName: "SiriusDevelopmentGroup",
+  organizationName: "Tonantzintla",
   projectName: "Documentation",
   trailingSlash: false,
 
@@ -33,8 +33,8 @@ const config = {
         },
         docs: {
           id: "default",
-          path: "docs/rayfield",
-          routeBasePath: "/rayfield",
+          path: "docs/guide",
+          routeBasePath: "/guide",
           sidebarPath: require.resolve("./sidebars.js"),
         },
       },
@@ -51,38 +51,9 @@ const config = {
     [
       "@docusaurus/plugin-content-docs",
       {
-        id: "sense",
-        path: "docs/sense",
-        routeBasePath: "/sense",
-        sidebarPath: require.resolve("./sidebars.js"),
-        // ... other options
-      },
-    ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "staff",
-        path: "docs/staff",
-        routeBasePath: "/staff",
-        sidebarPath: require.resolve("./sidebars.js"),
-        // ... other options
-      },
-    ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "faq",
-        path: "docs/faq",
-        routeBasePath: "/faq",
-        sidebarPath: require.resolve("./sidebars.js"),
-      },
-    ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
         id: "arrayfield",
         path: "docs/arrayfield",
-        routeBasePath: "/community/arrayfield",
+        routeBasePath: "/arrayfield",
         sidebarPath: require.resolve("./sidebars.js"),
       },
     ],
@@ -110,37 +81,32 @@ const config = {
       metadata: [
         { name: "theme-color", content: "#2B2D31" },
         { property: "og:type", content: "article" },
-        { property: "og:url", content: "https://docs.sirius.menu" },
+        { property: "og:url", content: "https://docs.tonantzintla.org" },
         { property: "og:locale", content: "en" },
-        { property: "og:site_name", content: "Sirius Documentation" },
+        { property: "og:site_name", content: "TON Documentation" },
         { name: "twitter:card", content: "summary_large_image" },
       ],
-      image: "img/Docs.png",
+      image: "img/banner.png",
       navbar: {
         title: "Documentation",
+        logo: {
+          alt: "TON Logo",
+          src: "img/logo.svg",
+        },
         style: "dark",
         items: [
           {
-            to: "/rayfield",
-            label: "Rayfield",
+            to: "/guide",
             position: "left",
-          },
-          {
-            to: "/sense",
-            label: "Sense",
-            position: "left",
-          },
-          {
-            type: "search",
-            position: "right",
+            label: "Get Started",
           },
           {
             type: "dropdown",
-            label: "Community",
+            label: "Projects",
             items: [
               // Add your project under the last item
               {
-                to: "/community/arrayfield",
+                to: "/arrayfield",
                 label: "Arrayfield",
               },
             ],
@@ -154,14 +120,8 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      algolia: {
-        indexName: "rayfield",
-        appId: "Y1DPKMTCPW",
-        apiKey: "7b017cc6ab9d1a413284733c14c2c42b",
-        contextualSearch: false,
-      },
       footer: {
-        copyright: `Powered by Sirius Documentation`,
+        copyright: `Powered by TON`,
       },
     }),
 };

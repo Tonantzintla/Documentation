@@ -1,5 +1,5 @@
 html {
-  @apply font-sfdisplay;
+  @apply font-sans;
 }
 
 .searchQueryInput,

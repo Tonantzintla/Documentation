@@ -3,7 +3,7 @@ import Content from "@theme-original/AnnouncementBar/Content";
 
 export default function ContentWrapper(props) {
   return (
-    <div className="flex w-full items-center font-sfdisplay">
+    <div className="flex w-full items-center">
       <Content {...props} />
     </div>
   );
