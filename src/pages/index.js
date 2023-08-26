@@ -4,11 +4,6 @@ import Head from "@docusaurus/Head";
 import Image from "@theme/IdealImage";
 import projects from "../json/projects.json";
 
-<head>
-  <title>TON | Documentation</title>
-  <meta name="title" content="TON | Documentation" />
-</head>;
-
 function CardLayout({ children }) {
   return <div className="flex h-full w-full flex-col flex-wrap items-center justify-center gap-4 pb-4 md:flex-row md:gap-6 md:pb-6 xl:gap-8 xl:pb-8">{children}</div>;
 }
@@ -28,6 +23,9 @@ export default function Home() {
   return (
     <Layout>
       <Head>
+        <title>TON | Documentation</title>
+        <meta name="title" content="TON | Documentation" />
+        <meta name="description" content="Documentation for all your projects" />
         <meta property="og:title" content="TON Documentation" />
         <meta property="og:image:alt" content="TON Documentation" />
         <meta name="description" property="og:description" content="Documentation for all your projects" />

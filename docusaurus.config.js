@@ -83,7 +83,7 @@ const config = {
         { property: "og:type", content: "article" },
         { property: "og:url", content: "https://docs.tonantzintla.org" },
         { property: "og:locale", content: "en" },
-        { property: "og:site_name", content: "TON Documentation" },
+        { property: "og:site_name", content: "TON" },
         { name: "twitter:card", content: "summary_large_image" },
       ],
       image: "img/banner.png",

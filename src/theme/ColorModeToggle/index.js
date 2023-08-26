@@ -30,26 +30,12 @@ function ColorModeToggle({ className, buttonClassName, value, onChange }) {
     <div className={clsx(styles.toggle, className)}>
       <button className={clsx("clean-btn", styles.toggleButton, !isBrowser && styles.toggleButtonDisabled, buttonClassName)} type="button" onClick={() => onChange(value === "dark" ? "light" : "dark")} disabled={!isBrowser} title={title} aria-label={title} aria-live="polite">
         <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" className={clsx(styles.toggleIcon, styles.lightToggleIcon)}>
-          <g clipPath="url(#clip0_1899_7499)">
-            <circle fill="currentColor" cx="14" cy="14" r="12" />
-          </g>
-          <defs>
-            <clipPath id="clip0_1899_7499">
-              <rect width="25.3477" height="25.4414" fill="white" transform="translate(1 1)" />
-            </clipPath>
-          </defs>
+          <circle fill="currentColor" cx="14" cy="14" r="12" />
         </svg>
 
         <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" className={clsx(styles.toggleIcon, styles.darkToggleIcon)}>
-          <g clipPath="url(#clip0_1899_28758)">
-            <circle fill="white" cx="14" cy="14" r="12" />
-            <circle fill="black" cx="14" cy="14" r="5" />
-          </g>
-          <defs>
-            <clipPath id="clip0_1899_28758">
-              <rect width="23.5781" height="23.7539" fill="white" transform="translate(2 2)" />
-            </clipPath>
-          </defs>
+          <circle fill="white" cx="14" cy="14" r="12" />
+          <circle fill="black" cx="14" cy="14" r="5" />
         </svg>
       </button>
     </div>
