@@ -28,7 +28,7 @@ export default function Home() {
         <meta name="description" content="Documentation for all your projects" />
         <meta property="og:title" content="TON Documentation" />
         <meta property="og:image:alt" content="TON Documentation" />
-        <meta name="description" property="og:description" content="Documentation for all your projects" />
+        <meta property="og:description" content="Documentation for all your projects" />
       </Head>
       <main className="flex h-auto items-center">
         <div className="mx-auto py-6 sm:py-8 lg:py-12">
