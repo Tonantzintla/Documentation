@@ -35,7 +35,7 @@ function ColorModeToggle({ className, buttonClassName, value, onChange }) {
 
         <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" className={clsx(styles.toggleIcon, styles.darkToggleIcon)}>
           <circle fill="white" cx="14" cy="14" r="12" />
-          <circle fill="black" cx="14" cy="14" r="5" />
+          <circle fill="black" cx="14" cy="14" r="4.5" />
         </svg>
       </button>
     </div>
