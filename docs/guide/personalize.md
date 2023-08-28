@@ -57,8 +57,8 @@ Disallow: /my-project/
 
 :::note
 
-We have configured the Algolia Crawler to crawl the whole website (while ignoring the links in robots.txt) every Sunday at 12:00 AM UTC.  
-So if you add new content to your project's documentation, it will be searchable on the next Sunday.
+We have configured the Algolia Crawler to crawl the whole website (while ignoring the links in `robots.txt`) every Wednesday and Sunday at 12:00 AM UTC.  
+So if you add new content to your project's documentation, it will be searchable on the next Wednesday or Sunday.
 
 You may request a manual crawl by contacting us on our [Discord server](https://discord.tonantzintla.org).
 
