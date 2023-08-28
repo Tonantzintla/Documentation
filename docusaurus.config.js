@@ -96,6 +96,10 @@ const config = {
         style: "dark",
         items: [
           {
+            type: "search",
+            position: "right",
+          },
+          {
             to: "/guide",
             position: "left",
             label: "Get Started",
@@ -119,6 +123,12 @@ const config = {
         defaultLanguage: "lua",
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      algolia: {
+        indexName: "tonantzintla",
+        appId: "AZKUWVWV9U",
+        apiKey: "361d02d439684347da425d2e8a5a8da7",
+        contextualSearch: false,
       },
       footer: {
         copyright: `Powered by TON`,
